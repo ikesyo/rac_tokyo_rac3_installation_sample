@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD7BFD0919F1ED4F00F5DAFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7BFD0819F1ED4F00F5DAFE /* AppDelegate.swift */; };
+		CD7BFD0B19F1ED4F00F5DAFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7BFD0A19F1ED4F00F5DAFE /* ViewController.swift */; };
+		CD7BFD0E19F1ED4F00F5DAFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7BFD0C19F1ED4F00F5DAFE /* Main.storyboard */; };
+		CD7BFD1019F1ED4F00F5DAFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7BFD0F19F1ED4F00F5DAFE /* Images.xcassets */; };
+		CD7BFD1319F1ED4F00F5DAFE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD7BFD1119F1ED4F00F5DAFE /* LaunchScreen.xib */; };
+		CD7BFD1F19F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7BFD1E19F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sampleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD7BFD1919F1ED4F00F5DAFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD7BFCFB19F1ED4F00F5DAFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD7BFD0219F1ED4F00F5DAFE;
+			remoteInfo = rac_tokyo_rac3_installation_sample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD7BFD0319F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rac_tokyo_rac3_installation_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7BFD0719F1ED4F00F5DAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7BFD0819F1ED4F00F5DAFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD7BFD0A19F1ED4F00F5DAFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD7BFD0D19F1ED4F00F5DAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD7BFD0F19F1ED4F00F5DAFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD7BFD1219F1ED4F00F5DAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CD7BFD1819F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rac_tokyo_rac3_installation_sampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7BFD1D19F1ED4F00F5DAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7BFD1E19F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rac_tokyo_rac3_installation_sampleTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD7BFD0019F1ED4F00F5DAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7BFD1519F1ED4F00F5DAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD7BFCFA19F1ED4F00F5DAFE = {
+			isa = PBXGroup;
+			children = (
+				CD7BFD0519F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sample */,
+				CD7BFD1B19F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sampleTests */,
+				CD7BFD0419F1ED4F00F5DAFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD7BFD0419F1ED4F00F5DAFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD7BFD0319F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sample.app */,
+				CD7BFD1819F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD7BFD0519F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sample */ = {
+			isa = PBXGroup;
+			children = (
+				CD7BFD0819F1ED4F00F5DAFE /* AppDelegate.swift */,
+				CD7BFD0A19F1ED4F00F5DAFE /* ViewController.swift */,
+				CD7BFD0C19F1ED4F00F5DAFE /* Main.storyboard */,
+				CD7BFD0F19F1ED4F00F5DAFE /* Images.xcassets */,
+				CD7BFD1119F1ED4F00F5DAFE /* LaunchScreen.xib */,
+				CD7BFD0619F1ED4F00F5DAFE /* Supporting Files */,
+			);
+			path = rac_tokyo_rac3_installation_sample;
+			sourceTree = "<group>";
+		};
+		CD7BFD0619F1ED4F00F5DAFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD7BFD0719F1ED4F00F5DAFE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD7BFD1B19F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD7BFD1E19F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sampleTests.swift */,
+				CD7BFD1C19F1ED4F00F5DAFE /* Supporting Files */,
+			);
+			path = rac_tokyo_rac3_installation_sampleTests;
+			sourceTree = "<group>";
+		};
+		CD7BFD1C19F1ED4F00F5DAFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD7BFD1D19F1ED4F00F5DAFE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD7BFD0219F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7BFD2219F1ED4F00F5DAFE /* Build configuration list for PBXNativeTarget "rac_tokyo_rac3_installation_sample" */;
+			buildPhases = (
+				CD7BFCFF19F1ED4F00F5DAFE /* Sources */,
+				CD7BFD0019F1ED4F00F5DAFE /* Frameworks */,
+				CD7BFD0119F1ED4F00F5DAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rac_tokyo_rac3_installation_sample;
+			productName = rac_tokyo_rac3_installation_sample;
+			productReference = CD7BFD0319F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD7BFD1719F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7BFD2519F1ED4F00F5DAFE /* Build configuration list for PBXNativeTarget "rac_tokyo_rac3_installation_sampleTests" */;
+			buildPhases = (
+				CD7BFD1419F1ED4F00F5DAFE /* Sources */,
+				CD7BFD1519F1ED4F00F5DAFE /* Frameworks */,
+				CD7BFD1619F1ED4F00F5DAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD7BFD1A19F1ED4F00F5DAFE /* PBXTargetDependency */,
+			);
+			name = rac_tokyo_rac3_installation_sampleTests;
+			productName = rac_tokyo_rac3_installation_sampleTests;
+			productReference = CD7BFD1819F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD7BFCFB19F1ED4F00F5DAFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Syo Ikeda";
+				TargetAttributes = {
+					CD7BFD0219F1ED4F00F5DAFE = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					CD7BFD1719F1ED4F00F5DAFE = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = CD7BFD0219F1ED4F00F5DAFE;
+					};
+				};
+			};
+			buildConfigurationList = CD7BFCFE19F1ED4F00F5DAFE /* Build configuration list for PBXProject "rac_tokyo_rac3_installation_sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD7BFCFA19F1ED4F00F5DAFE;
+			productRefGroup = CD7BFD0419F1ED4F00F5DAFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD7BFD0219F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sample */,
+				CD7BFD1719F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD7BFD0119F1ED4F00F5DAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7BFD0E19F1ED4F00F5DAFE /* Main.storyboard in Resources */,
+				CD7BFD1319F1ED4F00F5DAFE /* LaunchScreen.xib in Resources */,
+				CD7BFD1019F1ED4F00F5DAFE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7BFD1619F1ED4F00F5DAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD7BFCFF19F1ED4F00F5DAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7BFD0B19F1ED4F00F5DAFE /* ViewController.swift in Sources */,
+				CD7BFD0919F1ED4F00F5DAFE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7BFD1419F1ED4F00F5DAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7BFD1F19F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD7BFD1A19F1ED4F00F5DAFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD7BFD0219F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sample */;
+			targetProxy = CD7BFD1919F1ED4F00F5DAFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD7BFD0C19F1ED4F00F5DAFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7BFD0D19F1ED4F00F5DAFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD7BFD1119F1ED4F00F5DAFE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7BFD1219F1ED4F00F5DAFE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD7BFD2019F1ED4F00F5DAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD7BFD2119F1ED4F00F5DAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD7BFD2319F1ED4F00F5DAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = rac_tokyo_rac3_installation_sample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD7BFD2419F1ED4F00F5DAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = rac_tokyo_rac3_installation_sample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD7BFD2619F1ED4F00F5DAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = rac_tokyo_rac3_installation_sampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rac_tokyo_rac3_installation_sample.app/rac_tokyo_rac3_installation_sample";
+			};
+			name = Debug;
+		};
+		CD7BFD2719F1ED4F00F5DAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = rac_tokyo_rac3_installation_sampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rac_tokyo_rac3_installation_sample.app/rac_tokyo_rac3_installation_sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD7BFCFE19F1ED4F00F5DAFE /* Build configuration list for PBXProject "rac_tokyo_rac3_installation_sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7BFD2019F1ED4F00F5DAFE /* Debug */,
+				CD7BFD2119F1ED4F00F5DAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7BFD2219F1ED4F00F5DAFE /* Build configuration list for PBXNativeTarget "rac_tokyo_rac3_installation_sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7BFD2319F1ED4F00F5DAFE /* Debug */,
+				CD7BFD2419F1ED4F00F5DAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD7BFD2519F1ED4F00F5DAFE /* Build configuration list for PBXNativeTarget "rac_tokyo_rac3_installation_sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7BFD2619F1ED4F00F5DAFE /* Debug */,
+				CD7BFD2719F1ED4F00F5DAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD7BFCFB19F1ED4F00F5DAFE /* Project object */;
+}
