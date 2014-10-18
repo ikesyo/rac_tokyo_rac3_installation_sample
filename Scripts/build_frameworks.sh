@@ -12,6 +12,7 @@ xcodebuild \
     CONFIGURATION_BUILD_DIR="${CONFIGURATION_BUILD_DIR}" \
     OBJROOT="${OBJROOT}" \
     SYMROOT="${SYMROOT}" \
+    ONLY_ACTIVE_ARCH="NO" \
 
 xcodebuild \
     -project "External/ReactiveCocoa/ReactiveCocoa.xcodeproj" \
@@ -23,7 +24,8 @@ xcodebuild \
     CONFIGURATION_BUILD_DIR="${CONFIGURATION_BUILD_DIR}" \
     OBJROOT="${OBJROOT}" \
     SYMROOT="${SYMROOT}" \
-    IPHONEOS_DEPLOYMENT_TARGET="7.0"
+    ONLY_ACTIVE_ARCH="NO" \
+    IPHONEOS_DEPLOYMENT_TARGET="7.0" \
 
 FRAMEWORKS_DIR="Frameworks"
 
@@ -31,5 +33,5 @@ if [ ! -d "${FRAMEWORKS_DIR}" ]; then
     mkdir "${FRAMEWORKS_DIR}"
 fi
 
-cp -r "${CONFIGURATION_BUILD_DIR}/LlamaKit.framework" "${FRAMEWORKS_DIR}"
-cp -r "${CONFIGURATION_BUILD_DIR}/ReactiveCocoa.framework" "${FRAMEWORKS_DIR}"
+cp -r "${BUILT_PRODUCTS_DIR}/LlamaKit.framework" "${FRAMEWORKS_DIR}"
+cp -r "${BUILT_PRODUCTS_DIR}/ReactiveCocoa.framework" "${FRAMEWORKS_DIR}"
