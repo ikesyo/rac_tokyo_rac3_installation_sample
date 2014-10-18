@@ -13,6 +13,10 @@
 		CD7BFD1019F1ED4F00F5DAFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7BFD0F19F1ED4F00F5DAFE /* Images.xcassets */; };
 		CD7BFD1319F1ED4F00F5DAFE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD7BFD1119F1ED4F00F5DAFE /* LaunchScreen.xib */; };
 		CD7BFD1F19F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7BFD1E19F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sampleTests.swift */; };
+		CDE8315919F1FAD70059EDD7 /* LlamaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7BFD2F19F1F7BC00F5DAFE /* LlamaKit.framework */; };
+		CDE8315B19F1FAD70059EDD7 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7BFD3019F1F7BC00F5DAFE /* ReactiveCocoa.framework */; };
+		CDE8315D19F1FB410059EDD7 /* LlamaKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = CD7BFD2F19F1F7BC00F5DAFE /* LlamaKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CDE8315E19F1FB410059EDD7 /* ReactiveCocoa.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = CD7BFD3019F1F7BC00F5DAFE /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +29,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CD7BFD3319F1F7E200F5DAFE /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CDE8315D19F1FB410059EDD7 /* LlamaKit.framework in Copy Frameworks */,
+				CDE8315E19F1FB410059EDD7 /* ReactiveCocoa.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		CD7BFD0319F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rac_tokyo_rac3_installation_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7BFD0719F1ED4F00F5DAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +55,8 @@
 		CD7BFD1819F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rac_tokyo_rac3_installation_sampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7BFD1D19F1ED4F00F5DAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD7BFD1E19F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rac_tokyo_rac3_installation_sampleTests.swift; sourceTree = "<group>"; };
+		CD7BFD2F19F1F7BC00F5DAFE /* LlamaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LlamaKit.framework; path = Frameworks/LlamaKit.framework; sourceTree = "<group>"; };
+		CD7BFD3019F1F7BC00F5DAFE /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Frameworks/ReactiveCocoa.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDE8315919F1FAD70059EDD7 /* LlamaKit.framework in Frameworks */,
+				CDE8315B19F1FAD70059EDD7 /* ReactiveCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +82,8 @@
 		CD7BFCFA19F1ED4F00F5DAFE = {
 			isa = PBXGroup;
 			children = (
+				CD7BFD2F19F1F7BC00F5DAFE /* LlamaKit.framework */,
+				CD7BFD3019F1F7BC00F5DAFE /* ReactiveCocoa.framework */,
 				CD7BFD0519F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sample */,
 				CD7BFD1B19F1ED4F00F5DAFE /* rac_tokyo_rac3_installation_sampleTests */,
 				CD7BFD0419F1ED4F00F5DAFE /* Products */,
@@ -122,6 +147,7 @@
 				CD7BFD2E19F1F1FF00F5DAFE /* ShellScript */,
 				CD7BFCFF19F1ED4F00F5DAFE /* Sources */,
 				CD7BFD0019F1ED4F00F5DAFE /* Frameworks */,
+				CD7BFD3319F1F7E200F5DAFE /* Copy Frameworks */,
 				CD7BFD0119F1ED4F00F5DAFE /* Resources */,
 			);
 			buildRules = (
@@ -353,6 +379,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = rac_tokyo_rac3_installation_sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -364,6 +394,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = rac_tokyo_rac3_installation_sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -451,6 +485,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = rac_tokyo_rac3_installation_sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +554,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = rac_tokyo_rac3_installation_sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
