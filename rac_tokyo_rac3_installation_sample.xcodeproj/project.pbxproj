@@ -119,6 +119,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD7BFD2219F1ED4F00F5DAFE /* Build configuration list for PBXNativeTarget "rac_tokyo_rac3_installation_sample" */;
 			buildPhases = (
+				CD7BFD2E19F1F1FF00F5DAFE /* ShellScript */,
 				CD7BFCFF19F1ED4F00F5DAFE /* Sources */,
 				CD7BFD0019F1ED4F00F5DAFE /* Frameworks */,
 				CD7BFD0119F1ED4F00F5DAFE /* Resources */,
@@ -206,6 +207,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CD7BFD2E19F1F1FF00F5DAFE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Scripts/build_frameworks.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CD7BFCFF19F1ED4F00F5DAFE /* Sources */ = {
@@ -339,6 +356,7 @@
 				INFOPLIST_FILE = rac_tokyo_rac3_installation_sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUBPROJECT_CONFIG = Debug;
 			};
 			name = Debug;
 		};
@@ -349,6 +367,7 @@
 				INFOPLIST_FILE = rac_tokyo_rac3_installation_sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUBPROJECT_CONFIG = Release;
 			};
 			name = Release;
 		};
@@ -435,6 +454,7 @@
 				INFOPLIST_FILE = rac_tokyo_rac3_installation_sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUBPROJECT_CONFIG = Debug;
 			};
 			name = AdHoc;
 		};
@@ -499,6 +519,7 @@
 				INFOPLIST_FILE = rac_tokyo_rac3_installation_sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUBPROJECT_CONFIG = Release;
 			};
 			name = QA;
 		};
@@ -540,6 +561,7 @@
 				CD7BFD2C19F1EDD800F5DAFE /* QA */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD7BFD2519F1ED4F00F5DAFE /* Build configuration list for PBXNativeTarget "rac_tokyo_rac3_installation_sampleTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +572,7 @@
 				CD7BFD2D19F1EDD800F5DAFE /* QA */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
